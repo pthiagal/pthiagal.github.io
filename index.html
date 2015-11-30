@@ -2,9 +2,90 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <style>
+        @-webkit-keyframes pulsate {
+            0% {
+                -webkit-transform: scale(0.8, 0.8);
+                opacity: 0.3;
+            }
+            50% {
+                -webkit-transform: scale(1, 1);
+                opacity: 1.0;
+            }
+            100% {
+                -webkit-transform: scale(0.8, 0.8);
+                opacity: 0.3;
+            }
+        }
+        @-moz-keyframes pulsate {
+            0% {
+                transform: scale(0.8, 0.8);
+                opacity: 0.3;
+            }
+            50% {
+                transform: scale(1, 1);
+                opacity: 1.0;
+            }
+            100% {
+                transform: scale(0.8, 0.8);
+                opacity: 0.3;
+            }
+        }
+        @-ms-keyframes pulsate {
+            0% {
+                -ms-transform: scale(0.8, 0.8);
+                opacity: 0.3;
+            }
+            50% {
+                -ms-transform: scale(1, 1);
+                opacity: 1.0;
+            }
+            100% {
+                -ms-transform: scale(0.8, 0.8);
+                opacity: 0.3;
+            }
+        }
+        @-o-keyframes pulsate {
+            0% {
+                transform: scale(0.8, 0.8);
+                opacity: 0.3;
+            }
+            50% {
+                transform: scale(1, 1);
+                opacity: 1.0;
+            }
+            100% {
+                transform: scale(0.8, 0.8);
+                opacity: 0.3;
+            }
+        }
+        @keyframes pulsate {
+            0% {
+                transform: scale(0.8, 0.8);
+                opacity: 0.3;
+            }
+            50% {
+                transform: scale(1, 1);
+                opacity: 1.0;
+            }
+            100% {
+                transform: scale(0.8, 0.8);
+                opacity: 0.3;
+            }
+        }
+
+        h1 {
+            text-align: center;
+            -webkit-animation: 3s ease-in-out infinite pulsate;
+            -moz-animation: 3s ease-in-out infinite pulsate;
+            -o-animation: 3s ease-in-out infinite pulsate;
+            animation: 3s ease-in-out infinite pulsate;
+        }
+    </style>
     <title>Pravin's Website</title>
 </head>
 <body>
-    <h1>Hello Pranavan</h1>
+    <h1>Hello Febin</h1>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </body>
 </html>
