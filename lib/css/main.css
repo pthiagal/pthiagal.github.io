@@ -1,0 +1,30 @@
+.primary-color {
+    background: #009688;
+}
+.page-header {
+    padding: 35px 0px;
+}
+.name {
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFFFF;
+}
+
+.section-text{
+    font-size: large;
+    margin: 0 5%;
+    display: block;
+}
+
+.sub-section-text {
+    font-size: medium;
+    margin: 0 5%;
+    display: block;
+}
+
+.unpadded-list {
+    padding-left: inherit;
+}
+
+body {
+    font-family: 'Roboto', 'Ubuntu', sans-serif;
+}
