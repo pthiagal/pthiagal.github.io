@@ -41,6 +41,19 @@
 .section-icon {
     margin-right: 1%;
 }
+
+.page-header {
+    margin: 0px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+}
+
 body {
+    padding-top: 50px;
     font-family: 'Roboto', 'Ubuntu', sans-serif;
 }
