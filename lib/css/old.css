@@ -1,0 +1,59 @@
+.primary-color {
+    background: #009688;
+}
+.page-header {
+    padding: 35px 0px;
+}
+.name {
+    font-family: 'Ubuntu', sans-serif;
+    color: #FFFFFF;
+}
+
+.text-center {
+    text-align:center;
+}
+
+.section-text{
+    font-size: large;
+    margin: 0 5%;
+    display: block;
+}
+
+.sub-section-text {
+    font-size: medium;
+    margin: 0 5%;
+    display: block;
+}
+
+.unpadded-list {
+    padding-left: inherit;
+}
+
+.icon-link {
+    display: inline-block;
+    margin-right: 1%;
+}
+
+.icon-bar {
+    margin: 3% 0;
+}
+
+.section-icon {
+    margin-right: 1%;
+}
+
+.page-header {
+    margin: 0px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+}
+
+body {
+    padding-top: 50px;
+    font-family: 'Roboto', 'Ubuntu', sans-serif;
+}
